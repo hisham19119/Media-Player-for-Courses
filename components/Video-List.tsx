@@ -98,7 +98,7 @@ const VideoList = () => {
             Topics for This Course
           </h2>
           <div className=" relative w-full py-8 my-4 mb-16">
-            {watchedPercentage && (
+            {watchedPercentage > 0 && (
               <>
                 <div className="absolute bottom-0 left-0 h-1 bg-gray-200 w-[90%] z-0"></div>
                 <div
